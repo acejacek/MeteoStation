@@ -51,11 +51,13 @@ void setup() {
 
   DEBUG_LN("MeteoStation Test");
 
+  //initiate temp and humidity sensor
   dht.begin();
   
+  //initiate pressure sensor
   if(!bmp.begin())
   {
-    DEBUG("Ooops, no BMP085 detected ...");
+    DEBUG("Ooops, no BMP085/BMP180 detected...");
     while(1);
   }
      

@@ -1,5 +1,5 @@
 // Uncomment to enable printing out nice debug messages.
-#define METEO_DEBUG
+//#define METEO_DEBUG
 
 // Setup debug printing macros.
 #ifdef METEO_DEBUG
